@@ -1,0 +1,17 @@
+------------HELP-----------
+Commands are put in a bracket example : (Q)
+
+Game Play:
+when playing it is important to notice the
+commands attached to the available choices(or options)
+example : (A) Kill the man (B) Pardon the man
+press the key related to what is in the bracket and click enter
+to make a choice.
+
+Unseen commands: 
+when playing and you feel like quiting to mainmenu use command(Q)
+To restart from scene one use command (R)
+
+For more help with the game or code, message me on twitter: @dpoxo
+
+        (Q: Return to menu)

@@ -1,0 +1,11 @@
+------------LICENSE-----------
+Story: Property of dcxxistudios, Rights Reserved
+Simpler: You can not use this story without permision,
+similar stories, written after the release date of this story
+could be faced with a CHARGE.
+
+Code: MIT LICENSE, read more on github.com/dpoxo
+Simpler: You can do whateve you want with this code, just
+do not claim it as yours and give credits.
+
+        (Q: Return to menu)
