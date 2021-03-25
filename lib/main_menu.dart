@@ -16,7 +16,7 @@ class mainMenu{
   switch (menu_key) {
     
     case 'Q':
-      scene.initializeStory();
+      scene.partOne();
       break;
     case 'W':
       switch_to.help();
@@ -78,7 +78,7 @@ class mainMenu{
     }
       else if(listener == 'R'){
         clear_terminal();
-        print('Game Restarted');
+        scene.partOne();
         break;
         
     }

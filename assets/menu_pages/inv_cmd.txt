@@ -1,0 +1,4 @@
+---Input (A)or(B) to make a choice
+---Input (Q)to Quit to menu 
+---Input (R)to restart Game 
+---Click 'Enter' key to confirm choice
