@@ -14,8 +14,9 @@ You have been employed to work full-time in this place,
 can you.. tell me your name to confirm your identy..
 Your first name please. Thank you.""");
   }
-
+  var player_name = '';
   void partOne(){
+    print('\nCaller: ');
     fr.readScene('scenes/part_1');
     sceneChoice('scenes/part_2', 'scenes/part_3');
     ////var choice = stdin.readLineSync().toUpperCase();
