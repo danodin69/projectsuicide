@@ -1,6 +1,7 @@
 import 'dart:io';
 import 'package:project_suicide/file_reader.dart' as display;
 import 'package:project_suicide/scenes.dart';
+import 'package:project_suicide/profile_info.dart' as profile;
 
 class mainMenu{
   
@@ -16,7 +17,7 @@ class mainMenu{
   switch (menu_key) {
     
     case 'Q':
-      scene.partOne();
+      profile.initializeStory();
       break;
     case 'W':
       switch_to.help();

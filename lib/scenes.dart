@@ -5,21 +5,14 @@ import 'package:project_suicide/main_menu.dart';
 
 class storyParts{
   
-  void initializeStory(){
-    Menu.clear_terminal();
-      // ignore: prefer_single_quotes
-      print("""Ada: This is the suicide prevention center.
-
-You have been employed to work full-time in this place,
-can you.. tell me your name to confirm your identy..
-Your first name please. Thank you.""");
-  }
-  var player_name = '';
+  
+  final String player_name = '';
   void partOne(){
+    stdout.writeln(player_name);
     print('\nCaller: ');
     fr.readScene('scenes/part_1');
     sceneChoice('scenes/part_2', 'scenes/part_3');
-    ////var choice = stdin.readLineSync().toUpperCase();
+    //var choice = stdin.readLineSync().toUpperCase();
     if(choice == 'A'){
       partTwo();
 
@@ -138,28 +131,9 @@ Your first name please. Thank you.""");
             break;
         default:
           print(choice + ': Not Found');
-          print(invalidCommand);
           fr.readScene('menu_pages/inv_cmd');
           //Menu.hiddenCommandListener();
           return sceneChoice( A,B);
-          
-      }
-    }
-    void goToScene(a,b){
-      //var choice = stdin.readLineSync().toUpperCase();
-      switch (choice) {
-        case 'A':
-            a;
-          break;
-        case 'B':
-            a;
-          break;
-        
-        default:
-          print('Invalid command');
-          print(choice + ': Not Found');
-          
-          fr.readScene('inv_cmd');
           
       }
     }
@@ -184,7 +158,6 @@ Your first name please. Thank you.""");
             break;
         default:
           print(choice + ': Not Found');
-          print(invalidCommand);
           fr.readScene('menu_pages/inv_cmd');
           return gameOver();
       }
@@ -193,6 +166,5 @@ Your first name please. Thank you.""");
       //fr.readScene(fail);
       
     }  
-  var invalidCommand = '';
 String choice;
 storyParts scene = storyParts();
